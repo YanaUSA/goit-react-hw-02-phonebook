@@ -8,8 +8,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   display: block;
-  font-size: 36px;
-  font-weight: 700;
+
   color: inherit;
   margin-bottom: 20px;
 `;

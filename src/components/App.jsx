@@ -51,13 +51,13 @@ export class App extends Component {
   };
 
   render() {
-    const { contacts, filter } = this.state;
+    const { filter } = this.state;
 
     return (
       <Container>
         <Title>Phonebook</Title>
 
-        <ContactForm addContact={this.addContact} contacts={contacts} />
+        <ContactForm addContact={this.addContact} />
 
         <ContactsTitle>Contacts</ContactsTitle>
 
